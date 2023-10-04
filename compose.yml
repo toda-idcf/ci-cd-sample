@@ -1,0 +1,15 @@
+version: "3.9"
+services:
+  app:
+    build:
+      context: .
+    restart: always
+    tty: true
+    stdin_open: true
+    ports:
+      - 23333:3000
+    volumes:
+      - .:/app:cached
+    extra_hosts:
+      - host.docker.internal:host-gateway
+
