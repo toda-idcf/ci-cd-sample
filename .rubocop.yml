@@ -1,0 +1,12 @@
+AllCops:
+  Exclude:
+    - "bin/*"
+    - "db/schema.rb"
+    - "vendor/**/*"
+    - "config/**/*"
+  NewCops: enable
+  SuggestExtensions: false
+
+Style/Documentation:
+  Enabled: false
+
