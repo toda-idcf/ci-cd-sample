@@ -18,7 +18,7 @@ module App
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
-    config.version = "1.0.0"
+    config.version = "2.0.0"
     config.hosts << ".public.ilb.jp-east-3.idcfcloud.net"
     config.middleware.delete ActionDispatch::HostAuthorization
   end
